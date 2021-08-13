@@ -66,6 +66,12 @@
                  <input type="password" name="senha" class="form-control" placeholder="Repita a senha" aria-label="Repita a senha" aria-describedby="basic-addon1">
                </div>
 
+               <div class="form-group form-check">
+                 <input type="checkbox" name="termos" class="form-check-input" id="termos">
+                 <label class="form-check-label" for="exampleCheck1">
+                     Aceitar os <a href="#" data-toggle="modal" data-target="#modalTermos">termos</a>
+                 </label>
+             </div>
 
                <div class="form-group text-right">
                    <button class="btn btn-primary">Cadastrar</button>
@@ -81,12 +87,37 @@
 
     </main><!-- /.container -->
 
+ 
+<!-- Modal -->
+<div class="modal fade" id="modalTermos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Termos PW3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+     <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui, eaque accusamus soluta, delectus debitis explicabo eos aut, voluptatem sunt numquam atque! Debitis, officia similique vitae velit tempore possimus praesentium!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit officiis, dolore tempore eius esse facere maiores fuga sequi quod dicta praesentium reiciendis omnis rerum rem ratione consectetur, temporibus eos?
+    </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-3.3.1.slim.min.js.download"></script>
-   
-    
+    <script src="js/jquery-3.3.1.slim.min.js.download"></script>  
     <script src="js/bootstrap.min.js.download"></script>
   
 

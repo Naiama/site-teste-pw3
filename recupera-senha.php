@@ -41,7 +41,7 @@
                 </div>
                  <input type="mail" name="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
                </div>
-
+               
                <div class="form-group text-right">
                    <button class="btn btn-primary">Recuperar</button>
                </div>
